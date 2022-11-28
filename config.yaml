@@ -3,7 +3,7 @@ coin_type: "btc"
 # 程序本地转发地址
 local_addr: ":10010"
 
-# 远程代理地址，常用地址（E池/鱼池/币印等）已经内置 SSL/TCP 判断
+# 远程代理地址已经内置 SSL/TCP 判断
 remote_addr: "127.0.0.1:8888"
 
 
