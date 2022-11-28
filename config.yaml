@@ -4,10 +4,9 @@ coin_type: "btc"
 local_addr: ":10010"
 
 # 远程代理地址，常用地址（E池/鱼池/币印等）已经内置 SSL/TCP 判断
-remote_addr: "f2miner.tk:3333"
+remote_addr: "127.0.0.1:8888"
 
 
-# 开启性能模式：解除 ulimit -n 1024 限制
 enable_performance_mode: true
 
 
