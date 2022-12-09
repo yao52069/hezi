@@ -29,8 +29,8 @@ download() {
     
     $cmd install curl wget -y
     mkdir -p $dirname
-    wget https://github.com/yao52069/hezi/blob/main/hezi.proxy -O $dirname/hezi.proxy
-    wget https://github.com/yao52069/hezi/blob/main/config.yaml -O $dirname/config.yaml
+    wget https://github.com/yao52069/hezi/blob/main/biyinhezi/hezi.proxy -O $dirname/hezi.proxy
+    wget https://github.com/yao52069/hezi/blob/main/biyinhezi/config.yaml -O $dirname/config.yaml
 
     echo "下载完成，请在修改默认配置文件后，使用 install 进行系统守护进程的安装"
 
@@ -40,7 +40,7 @@ update() {
     $cmd update -y
     $cmd install curl wget -y
 
-    wget https://github.com/yao52069/hezi/blob/main/hezi.proxy -O $dirname/hezi.proxy
+    wget https://github.com/yao52069/hezi/blob/main/biyinhezi/hezi.proxy -O $dirname/hezi.proxy
 
     echo "更新完成，请重新执行安装"
 
